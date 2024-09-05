@@ -1,0 +1,29 @@
+.list{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right:2rem;
+    text-decoration: none;
+    color: #333; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .link h4 {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .link:hover {
+    color: #e63946; /* Change color on hover */
+  }
+  
+  .active {
+    color: #e63946; /* Active link color */
+  }

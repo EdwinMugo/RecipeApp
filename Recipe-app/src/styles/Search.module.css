@@ -1,0 +1,33 @@
+.formStyle {
+    margin: 0 auto;
+    padding: 2rem 0;
+    position: relative;
+    width: 100%;
+    display: flex; /* To align search icon and input in one line */
+    justify-content: center; /* Center the form content */
+    align-items: center;
+  }
+  
+  .formStyle input {
+    width: 60%;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    background: #f5f5f5; /* Light background color for input */
+    font-size: 1.5rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .formStyle input:focus {
+    background-color: #e0e0e0; /* Slightly darker on focus */
+  }
+  
+  .formStyle svg {
+    position: absolute;
+    left: 1rem; /* Adjust icon position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333; /* Consistent icon color */
+    pointer-events: none; /* Prevent clicking on the icon */
+  }
